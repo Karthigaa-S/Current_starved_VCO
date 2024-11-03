@@ -27,5 +27,10 @@ This structure allows for low-power, tunable frequency output, suitable for appl
 | Supply voltage      | VDD        | 1.8 V         |
 | Control voltage     | VCTRL      | 0.9 V         |
 | Temperature         | T          | 300 K         |
-| Output frequency    | FOUT       | 907 MHz       |
+| Output frequency    | FOUT       | 961 MHz       |
 | Power consumption   | -          | 400 UW        |
+
+# PRE LAYOUT SIMULATIONS 
+## SHEMATIC
+The current starved vco designed using esim and the screenshot of the design is:
+ <img src="
