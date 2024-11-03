@@ -17,3 +17,5 @@ Buffer Inverters: These inverters drive the output, ensuring a clean signal at t
 
 This structure allows for low-power, tunable frequency output, suitable for applications in low-power communication circuits.
 # BLOCK DIAGRAM
+<img src="images/Screenshot 2024-11-03 102856.png">
+
