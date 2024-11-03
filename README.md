@@ -28,7 +28,7 @@ This structure allows for low-power, tunable frequency output, suitable for appl
 | Control voltage     | VCTRL      | 0.9 V         |
 | Temperature         | T          | 300 K         |
 | Output frequency    | FOUT       | 961 MHz       |
-| Power consumption   | -          | 50 UW        |
+| Power consumption   | -          | 50 uW        |
 
 # PRE LAYOUT SIMULATIONS 
 ## SHEMATIC
@@ -81,6 +81,9 @@ http://ngspice.sourceforge.net/download.html
 - More advanced bulk-driven techniques to reduce power consumption.
 - Linearity can be increased further.
 
+# ACKNOWLEDGEMENT
+
+ Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 # AUTHOR 
 
  :pencil: KARTHIGAA S (B.E. ELECTRONICS AND COMMUNICATION ENGINEERING), MADRAS INSTITUTE OF TECHNOLOGY, ANNA UNIVERSITY, CHENNAI, TAMILNADU.
