@@ -38,3 +38,47 @@ The current starved VCO designed using esim and the screenshot of the design is:
 
  ## SIMULATED WAVES
 After extracting the netlist and performing transient analysis of VCO @ ` vctrl=0.9V `
+<h1 align="center"> Voltage vs Time @ VCTRL=0.9V</h1>
+<br>
+
+
+<img src="images/Screenshot 2024-11-03 093043.png">
+
+The output frequency was found to be, ` FOUT= 961MHz `
+It is calculated by measuring the time interval between two troughs or the crests and taking the inverse of the value measured.
+
+<h1 align="center"> Current vs Time @ VCTRL=0.9V</h1>
+<br>
+
+<img src=
+
+# TOOLS USED FOR SIMULATIONS
+
+## eSim
+eSim is a free, open-source electronic design automation (EDA) tool for circuit design, simulation, analysis, and PCB design. It's an alternative to commercial software like OrCAD, Xpedition, and HSPICE.
+Esim can be downloaded from the website:
+
+https://esim.fossee.in/downloads
+
+## Ngspice
+
+Ngspice is a free, open-source circuit simulator for electronic and electric circuits. 
+Ngspice can be downloaded  from the website:
+
+http://ngspice.sourceforge.net/download.html
+
+### RUNNING THE SIMULATION
+
+- After intalling eSim and Ngspice the circuit is designed in eSim and then the netlist is generated. 
+- The `Sky130A Tech ` file in `Layout_Files` folder in this repository is downloades and placed it in current working directory.
+- The spice file is generated and named as `vco.cir.out` and then simulated in Ngspice.
+
+# FUTURE WORK
+
+- Further optimisation to achieve a high frequency range.
+- More advanced bulk-driven techniques to reduce power consumption.
+- Linearity can be increased further.
+
+# AUTHOR 
+
+ :pencil: KARTHIGAA S (B.E. ELECTRONICS AND COMMUNICATION ENGINEERING), MADRAS INSTITUTE OF TECHNOLOGY, ANNA UNIVERSITY, CHENNAI, TAMILNADU.
