@@ -32,5 +32,9 @@ This structure allows for low-power, tunable frequency output, suitable for appl
 
 # PRE LAYOUT SIMULATIONS 
 ## SHEMATIC
-The current starved vco designed using esim and the screenshot of the design is:
- <img src="
+The current starved VCO designed using esim and the screenshot of the design is:
+
+ <img src="images/Screenshot 2024-11-03 101120.png">
+
+ ## SIMULATED WAVES
+After extracting the netlist and performing transient analysis of VCO @ ` vctrl=0.9V `
