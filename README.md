@@ -28,7 +28,7 @@ This structure allows for low-power, tunable frequency output, suitable for appl
 | Control voltage     | VCTRL      | 0.9 V         |
 | Temperature         | T          | 300 K         |
 | Output frequency    | FOUT       | 961 MHz       |
-| Power consumption   | -          | 50 UW        |
+| Power consumption   | -          | 50 uW        |
 
 # PRE LAYOUT SIMULATIONS 
 ## SHEMATIC
