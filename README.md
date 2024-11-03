@@ -1,4 +1,4 @@
-<h1 align="center"> Current_starved_VCO</h1>
+<h1 align="center"> Currents tarved VCO</h1>
 This repository presents the design of an analog IP - VCO
 
 It is a Current Starved Voltage Controlled Oscillator targerting 180nm tech for PLL based applications.
@@ -28,7 +28,7 @@ This structure allows for low-power, tunable frequency output, suitable for appl
 | Control voltage     | VCTRL      | 0.9 V         |
 | Temperature         | T          | 300 K         |
 | Output frequency    | FOUT       | 961 MHz       |
-| Power consumption   | -          | 400 UW        |
+| Power consumption   | -          | 50 UW        |
 
 # PRE LAYOUT SIMULATIONS 
 ## SHEMATIC
@@ -50,7 +50,9 @@ It is calculated by measuring the time interval between two troughs or the crest
 <h1 align="center"> Current vs Time @ VCTRL=0.9V</h1>
 <br>
 
-<img src=
+<img src="images/Screenshot 2024-11-03 093155.png">
+
+The power can be calculated from the simulated current values.
 
 # TOOLS USED FOR SIMULATIONS
 
