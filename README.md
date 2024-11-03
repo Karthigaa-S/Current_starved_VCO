@@ -81,6 +81,9 @@ http://ngspice.sourceforge.net/download.html
 - More advanced bulk-driven techniques to reduce power consumption.
 - Linearity can be increased further.
 
+# ACKNOWLEDGEMENT
+
+ Kunal Ghosh, Co-Founder of VLSI System Design (VSD) Corp. Pvt. Ltd.
 # AUTHOR 
 
  :pencil: KARTHIGAA S (B.E. ELECTRONICS AND COMMUNICATION ENGINEERING), MADRAS INSTITUTE OF TECHNOLOGY, ANNA UNIVERSITY, CHENNAI, TAMILNADU.
