@@ -65,14 +65,14 @@ V_Ibias net-_m1-pad4_ bias 0
  
 .control
 
-* --- Transient analysis --- *
+
 tran 1ps 10ns
 
-* --- Changing Plot styles --- *
+
 set color2 = orange
 set xbrushwidth = 2.5
 
-* --- Plotting waveform --- *
+
 plot v(F_OUT)
 plot i(v_Ibias)
 
