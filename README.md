@@ -16,3 +16,4 @@ Ring Oscillator Stages: Consist of a series of inverters that generate oscillati
 Buffer Inverters: These inverters drive the output, ensuring a clean signal at the Ring_Out node.
 
 This structure allows for low-power, tunable frequency output, suitable for applications in low-power communication circuits.
+# BLOCK DIAGRAM
