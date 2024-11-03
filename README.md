@@ -18,4 +18,12 @@ Buffer Inverters: These inverters drive the output, ensuring a clean signal at t
 This structure allows for low-power, tunable frequency output, suitable for applications in low-power communication circuits.
 # BLOCK DIAGRAM
 <img src="images/Screenshot 2024-11-03 102856.png">
-
+<h1>SPECIFICATIONS</h1>
+| Parameter           | Symbol     | Typical Value |
+| ------------------- | ---------- | ------------- |
+| Technology          | -          | 180 nm        |
+| Supply voltage      | VDD        | 1.8 V         |
+| Control voltage     | VCTRL      | 0.9 V         |
+| Temperature         | T          | 300 K         |
+| Output frequency    | FOUT       | 907 MHz       |
+| Power consumption   | -          | 400 UW        |
