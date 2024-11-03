@@ -1,19 +1,20 @@
-* ==================================== *
-* IP Name :avsdvco_1V8
-* PDK : Sky130 PDK by Google SkyWater
-* ==================================== *
 
 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *  Name of the author : KARTHIGAA S 
 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* =================================== *
- .TITLE avsd_vco_1V8 analysis @ 0.9 V 
-* =================================== *
+* =========================== *
+ .TITLE VCO analysis @ 0.9 V 
+* =========================== *
 
 
-* === To INCLUDE skywater-130nm model library === *
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.title kicad schematic
+
+.option scale=1u
+
+* .lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+.include sky130nm.lib
+* .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
 * === NETLIST === *
 
@@ -59,9 +60,8 @@ VCTRL net-_m16-pad2_ gnd  dc 0.9
 
 V_Ibias net-_m1-pad4_ bias 0
 
-* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
 * === COMMANDS FOR SIMULATION === * 
-* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ *
+
  
 .control
 
