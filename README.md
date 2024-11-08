@@ -1,7 +1,7 @@
 <h1 align="center"> Current starved VCO</h1>
 This repository presents the design of an analog IP - VCO
 
-It is a Current Starved Voltage Controlled Oscillator targerting 180nm tech for PLL based applications.
+It is a Current Starved Voltage Controlled Oscillator targerting skywater 130nm PDK for PLL based applications.
 </br>
 </br>
 <img src="https://github.com/Karthigaa-S/Current_starved_VCO/blob/main/images/Linearized-current-starved-Voltage-Controlled-Oscillator.png">
@@ -37,6 +37,9 @@ The current starved VCO designed using esim and the screenshot of the design is:
  <img src="images/Screenshot 2024-11-03 101120.png">
 
  ## SIMULATED WAVES
+
+From schematic netlist is generated and mosfets are replaced by `skywater 130nm mosfets` and simulation is performed.
+ 
 After extracting the netlist and performing transient analysis of VCO @ ` vctrl=0.9V `
 <h1 align="center"> Voltage vs Time @ VCTRL=0.9V</h1>
 <br>
@@ -72,8 +75,8 @@ http://ngspice.sourceforge.net/download.html
 ### RUNNING THE SIMULATION
 
 - After intalling eSim and Ngspice the circuit is designed in eSim and then the netlist is generated. 
-- The `Sky130A Tech ` file in `Layout_Files` folder in this repository is downloades and placed it in current working directory.
 - The spice file is generated and named as `vco.cir.out` and then simulated in Ngspice.
+- Place `sky130_fd_pr` folder or use `spice_lib` folder which has skywater mosfets models in current working directory to avoid errors during simulations.
 
 # FUTURE WORK
 
