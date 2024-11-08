@@ -3,17 +3,17 @@
 *  Name of the author : KARTHIGAA S 
 * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* =========================== *
+* -------------------------- *
  .TITLE VCO analysis @ 0.9 V 
-* =========================== *
+* --------------------------- *
 
 
 .title kicad schematic
 
-.option scale=1u
+* option scale=1u
 
-* .lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
-.include sky130nm.lib
+.lib "C:\FOSSEE\eSim\library\sky130_fd_pr\models\sky130.lib.spice" tt
+* .include sky130nm.lib
 * .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 
 * === NETLIST === *
@@ -50,17 +50,14 @@ xm24 f_out net-_m21-pad1_ gnd gnd sky130_fd_pr__nfet_01v8 W=6.5 L=0.18
 xm25 net-_m11-pad2_ net-_m11-pad2_ bias net-_m1-pad4_ sky130_fd_pr__pfet_01v8 w=1.01 L=0.18 
 xm26 net-_m11-pad2_ net-_m16-pad2_ gnd gnd sky130_fd_pr__nfet_01v8 W=1.01 L=0.18 
 
-* === DC VOLTAGE SOURCE (V=1.8V) === *
-VDD  net-_m1-pad4_ gnd 1.8
 
-* === DC CONTROL VOLTAGE (V=0.9V) === *
-* NOTE: VCTRL can be varied from 0.4 V to 1.6 V to get various output frequency 
+VDD  net-_m1-pad4_ gnd 1.8
 
 VCTRL net-_m16-pad2_ gnd  dc 0.9
 
 V_Ibias net-_m1-pad4_ bias 0
 
-* === COMMANDS FOR SIMULATION === * 
+* -- RUN -- * 
 
  
 .control
@@ -70,7 +67,7 @@ tran 1ps 10ns
 
 
 set color2 = orange
-set xbrushwidth = 2.5
+set xbrushwidth = 1.5
 
 
 plot v(F_OUT)
